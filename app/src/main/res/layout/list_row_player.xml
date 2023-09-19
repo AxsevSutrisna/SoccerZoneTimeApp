@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:backgroundTint="@color/orangeyellow"
+    android:outlineAmbientShadowColor="@color/purpleblack"
+    card_view:cardBackgroundColor="@color/purpleblack"
+    android:outlineSpotShadowColor="@color/purpleblack">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@mipmap/ic_launcher"
+            tools:ignore="MissingClass" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:textColor="@color/purpleblack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
+            tools:text="@string/player_name" />
+
+        <TextView
+            android:id="@+id/tv_nationallity"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:text="Nationality : "
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/purpleblack"
+            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/img_flags"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"
+            card_view:layout_constraintStart_toEndOf="@+id/tv_nationallity"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name" />
+
+        <TextView
+            android:id="@+id/tv_player_nationallity"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="@color/purpleblack"
+            card_view:layout_constraintHeight="match_parent"
+            card_view:layout_constraintStart_toEndOf="@+id/img_flags"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_name"
+            tools:ignore="MissingConstraints"
+            tools:text="@string/nationality" />
+
+        <TextView
+            android:id="@+id/tv_football_club"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="FootballClub : "
+            android:textColor="@color/purpleblack"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_nationallity" />
+
+        <ImageView
+            android:id="@+id/img_club"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="6dp"
+            android:src="@mipmap/ic_launcher"
+            card_view:layout_constraintStart_toEndOf="@+id/tv_football_club"
+            card_view:layout_constraintTop_toBottomOf="@+id/img_flags" />
+
+        <TextView
+            android:id="@+id/tv_player_clubs"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/purpleblack"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            card_view:layout_constraintHeight="match_parent"
+            card_view:layout_constraintStart_toEndOf="@+id/img_club"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_player_nationallity"
+            tools:ignore="MissingConstraints"
+            tools:text="@string/player_club" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Soccer-Zone-Time</string>
+
+    <string name="player_name">Player Name</string>
+    <string name="info_aplikasi">About</string>
+    <string name="nationality">Player Nationality</string>
+    <string name="flags">F</string>
+    <string name="club">CF</string>
+    <string name="player_club">Player Club</string>
+
+    <string name="detail_player_name">Detail Player Name</string>
+    <string name="detail_nationality">Detail Nationality</string>
+    <string name="detail_flags">Detail Flags</string>
+    <string name="description_player">Player Description</string>
+    <string name="player_fullname">Player FUll Name</string>
+    <string name="player_weight">Player W</string>
+    <string name="player_height">Player H</string>
+    <string name="player_desc">Player Deskripsi</string>
+
+    <string-array name="data_player">
+        <item>Cristiano Ronaldo</item>
+        <item>Lionel Messi</item>
+        <item>Kevin De Bruyne</item>
+        <item>Toni Kroos</item>
+        <item>Ruben Dias</item>
+        <item>Antonio Rüdige</item>
+        <item>Kylian Mbappé</item>
+        <item>Erling Haaland</item>
+        <item>Neymar Junior</item>
+        <item>Karim Benzema</item>
+        <item>Thibaut Courtois</item>
+        <item>Jude Bellingham</item>
+    </string-array>
+
+    <string-array name="data_player_full_name">
+        <item>Cristiano Ronaldo dos Santos Aveiro</item>
+        <item>Lionel Andrés Messi</item>
+        <item>Kevin De Bruyne</item>
+        <item>Toni Kroos</item>
+        <item>Rúben dos Santos Gato Alves Dias</item>
+        <item>Antonio Rüdige</item>
+        <item>Kylian Mbappé Lottin</item>
+        <item>Erling Braut Haaland</item>
+        <item>Neymar da Silva Santos Júnior</item>
+        <item>Karim Mostafa Benzema</item>
+        <item>Thibaut Nicolas Marc Courtois</item>
+        <item>Jude Victor William Bellingham</item>
+    </string-array>
+
+    <string-array name="data_player_weight">
+        <item>85 kg</item>
+        <item>72 kg</item>
+        <item>68 kg</item>
+        <item>78 kg</item>
+        <item>85 kg</item>
+        <item>70 kg</item>
+        <item>75 kg</item>
+        <item>88 kg</item>
+        <item>64 kg</item>
+        <item>82 kg</item>
+        <item>96 kg</item>
+        <item>75 kg</item>
+
+    </string-array>
+
+    <string-array name="data_player_height">
+        <item>187 cm</item>
+        <item>170 cm</item>
+        <item>181 cm</item>
+        <item>182 cm</item>
+        <item>187 cm</item>
+        <item>190 cm</item>
+        <item>178 cm</item>
+        <item>195 cm</item>
+        <item>174 cm</item>
+        <item>185 cm</item>
+        <item>200 cm</item>
+        <item>186 cm</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_player">
+        <item>Cristiano Ronaldo dos Santos Aveiro (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁɔˈnaldu]; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al Nassr and the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon dOr awards. Ronaldo holds the records for most appearances (183), goals (140) and assists (42) in the Champions League, goals in the European Championship (14), international goals (123) and international appearances (200). He is one of the few players to have made over 1,100 professional career appearances, and has scored over 800 official senior career goals for club and country, making him the highest goalscorer of all time</item>
+        <item>Lionel Andrés Messi[note 1] (Spanish pronunciation: [ljoˈnel anˈdɾes ˈmesi] born 24 June 1987), also known as Leo Messi, is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Regarded as one of the greatest players of all time, Messi has won a record seven Ballon dOr awards[note 2] and a record six European Golden Shoes, and in 2020 he was named to the Ballon dOr Dream Team. Until leaving the club in 2021, he had spent his entire professional career with Barcelona, where he won a club-record 34 trophies, including ten La Liga titles, seven Copa del Rey titles and the UEFA Champions League four times.With his country, he won the 2021 Copa América and the 2022 FIFA World Cup. A prolific goalscorer and creative playmaker, Messi holds the records for most goals in La Liga (474), most hat-tricks in La Liga (36) and the UEFA Champions League (eight), and most assists in La Liga (192) and the Copa América (17). He also has the most international goals by a South American male (103). Messi has scored over 800 senior career goals for club and country, and has the most goals by a player for a single club (672).</item>
+        <item>Kevin De Bruyne (born 28 June 1991) is a Belgian professional footballer who plays as a midfielder for and captains both Premier League club Manchester City and the Belgium national team. He is widely regarded as one of the greatest players of his generation as well as one of the best midfielders in the world. Pundits have described him as a complete footballer</item>
+        <item>Toni Kroos (born 4 January 1990) is a German professional footballer who plays as a midfielder for La Liga club Real Madrid. He plays mainly as a central midfielder, but has also been deployed as a deep-lying playmaker in his career. He is known for his vision, passing, creativity, crossing and set-piece ability. Kroos began his senior club career playing for Bayern Munich, where he made his debut at age 17 in 2007. He was sparingly used, and opted for an 18-month loan spell at fellow Bundesliga side Bayer Leverkusen, where he became a key contributor, and returned to his parent club with an increased profile in 2010. With Bayern, Kroos won two consecutive league titles (three titles in total), a UEFA Champions League title, two DFB-Pokal titles, and was voted into the league team of the season three times. In 2014, he joined Real Madrid in a transfer worth €25 million.</item>
+        <item>Rúben dos Santos Gato Alves Dias (born 14 May 1997) is a Portuguese professional footballer who plays as a centre-back for Premier League club Manchester City and the Portugal national team. Considered one of the best defenders in the world, he is known for his defensive prowess, leadership, and aerial ability. He signed for Premier League club Manchester City in September 2020 for a reported fee of €68 million, becoming the second-highest fee for a Portuguese player leaving the domestic league. Dias won the league title and EFL Cup in his first season, while also reaching the UEFA Champions League final. He was also named FWA Footballer of the Year, Manchester City Player of the Year, Premier League Player of the Season and the UEFA Champions League Defender of the Season in 2021. In 2022–23, he played a crucial role as City secured a first-ever continental treble.</item>
+        <item>Antonio Rüdiger (born 3 March 1993) is a German professional footballer who plays as a centre-back for La Liga club Real Madrid and the Germany national team. He is known for his aggressive playing style, tackling ability and strong aerial presence. Rüdiger began his career at VfB Stuttgart, representing their reserves in 3. Liga and the first team in the Bundesliga. In 2015 he joined Roma, initially on loan and a year later for a €9 million fee. He was signed by Chelsea in 2017 for an estimated £27 million, where he won the FA Cup in his first season, followed by the UEFA Europa League in his second season, and the UEFA Champions League in 2021. In 2022, Rüdiger signed for European champions Real Madrid.</item>
+        <item>Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the France national team. Regarded as one of the best players in the world, he is renowned for his dribbling abilities, exceptional speed, and finishing. At international level, Mbappé made his senior debut for France in 2017, at age of 18. At the 2018 FIFA World Cup, Mbappé became the youngest French player to score at a World Cup, as well as the second teenager, after Pelé, to score in a World Cup Final. He finished as the joint second-highest goalscorer as France won the tournament; he went on to win the FIFA World Cup Best Young Player and French Player of the Year awards for his performances. At the 2022 FIFA World Cup, France reached the final; Mbappé won the Golden Boot and Silver Ball and set the record for most goals scored in World Cup finals.</item>
+        <item>Erling Braut Haaland (né Håland; Urban East Norwegian: [ˈhòːlɑn];[5] born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the Norway national team. Considered one of the best players in the world, he is known for his speed, strength, positioning, and finishing inside the box. Haaland holds the record for the most goals scored by a player in a single Premier League season, with 36.  In the summer of 2022, he transferred to Manchester City for a fee of €60 million (£51.2 million), and was instrumental in the club winning a continental treble in his debut campaign. Haaland was named Young Player of the Season and Premier League Player of the Season, becoming the first player to win both awards in the same year.</item>
+        <item>Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar Júnior or mononymously as Neymar, is a Brazilian professional footballer who plays as a forward for Saudi Pro League club Al Hilal and the Brazil national team. A prolific goalscorer and playmaker, he is widely regarded as one of the best players in the world and one of the best Brazilian players of all time. Neymar finished third for the FIFA Ballon dOr in 2015 and 2017, has been awarded the FIFA Puskás Award, has been named in the FIFA FIFPro World11 twice, and the UEFA Champions League Squad of the Season three times. Off the pitch, he ranks among the worlds most prominent sportsmen. SportsPro named him the most marketable athlete in the world in 2012 and 2013, and ESPN cited him as the worlds fourth-most-famous athlete in 2016. In 2017, Time included him in its annual list of the 100 most influential people in the world.</item>
+        <item>Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays as a striker for Saudi Pro League club Al-Ittihad. Regarded as one of the best strikers of all time, he is a creative forward renowned for his goal-scoring ability, as well as his technical skills, vision, and versatility on the field. In 2009, Benzema was the subject of a then-French record football transfer when he joined Real Madrid in a deal worth €35 million. After struggling to establish himself in his debut season, he eventually achieved a consistent goalscoring rate with the club, notably being part of a highly rated trio alongside Cristiano Ronaldo and Gareth Bale — dubbed BBC — who were integral to four Champions League wins from 2014 to 2018.For his performances in 2021 and 2022, Benzema was awarded the UEFA Player of the Year and the Ballon dOr, becoming the fifth French player to have won the Ballon dOr.</item>
+        <item>Thibaut Nicolas Marc Courtois (born 11 May 1992) is a Belgian professional footballer who plays as a goalkeeper for La Liga club Real Madrid and the Belgium national team. Regarded as one of the best goalkeepers in the world, he is known for his reflexes, acrobatic saves, and command of the penalty area. In 2018, Courtois signed for Real Madrid in a deal worth a reported £35 million (€38.8 million), becoming La Liga most expensive goalkeeper, and where he has gone on to win two La Liga titles and the Champions League.</item>
+        <item>Jude Victor William Bellingham (born 29 June 2003) is an English professional footballer who plays as a midfielder for La Liga club Real Madrid and the England national team. Bellingham joined Birmingham City as an under-8, became the clubs youngest ever first-team player when he made his senior debut in August 2019, at the age of 16 years, 38 days, and played regularly during the 2019–20 season. He joined Borussia Dortmund in July 2020, and in his first appearance became their youngest ever goalscorer. Over three seasons with the club he made 132 appearances, was a member of their 2020–21 DFB-Pokal-winning team, and helped them finish as runners-up in the 2022–23 Bundesliga. He signed for Real Madrid in June 2023.</item>
+
+    </string-array>
+
+    <integer-array name="player_photo">
+        <item>@drawable/ronaldo</item>
+        <item>@drawable/messi</item>
+        <item>@drawable/kdb</item>
+        <item>@drawable/kroos</item>
+        <item>@drawable/dias</item>
+        <item>@drawable/rudiger</item>
+        <item>@drawable/mbappe</item>
+        <item>@drawable/haaland</item>
+        <item>@drawable/neymar</item>
+        <item>@drawable/benzema</item>
+        <item>@drawable/courtois</item>
+        <item>@drawable/bellingham</item>
+    </integer-array>
+
+    <string-array name="player_nationality">
+        <item>Portugal</item>
+        <item>Argentina</item>
+        <item>Belgium</item>
+        <item>Germany</item>
+        <item>Portugal</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Norwegia</item>
+        <item>Brazil</item>
+        <item>France</item>
+        <item>Belgium</item>
+        <item>England</item>
+    </string-array>
+
+    <integer-array name="flags">
+        <item>@drawable/portugal</item>
+        <item>@drawable/argentina</item>
+        <item>@drawable/belgia</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/portugal</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/france</item>
+        <item>@drawable/norwey</item>
+        <item>@drawable/brazil</item>
+        <item>@drawable/france</item>
+        <item>@drawable/belgia</item>
+        <item>@drawable/england</item>
+    </integer-array>
+
+    <integer-array name="clubs">
+        <item>@drawable/nassr</item>
+        <item>@drawable/miami</item>
+        <item>@drawable/mc</item>
+        <item>@drawable/realmadrid</item>
+        <item>@drawable/mc</item>
+        <item>@drawable/realmadrid</item>
+        <item>@drawable/psg</item>
+        <item>@drawable/mc</item>
+        <item>@drawable/alhillal</item>
+        <item>@drawable/alittihad</item>
+        <item>@drawable/realmadrid</item>
+        <item>@drawable/realmadrid</item>
+    </integer-array>
+
+    <string-array name="player_fc">
+        <item>Al Nassr</item>
+        <item>Inter Miami</item>
+        <item>Manchester City</item>
+        <item>Real Madrid</item>
+        <item>Manchester City</item>
+        <item>Real Madrid</item>
+        <item>Paris Saint German</item>
+        <item>Manchester City</item>
+        <item>Al-Hilal</item>
+        <item>Al-Ittihad</item>
+        <item>Real Madrid</item>
+        <item>Real Madrid</item>
+
+    </string-array>
+
+</resources>
